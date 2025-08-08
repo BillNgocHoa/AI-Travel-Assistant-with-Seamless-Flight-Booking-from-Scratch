@@ -1,93 +1,95 @@
-# HAI_COMP3074_ChatBot
+# SkyMate: AI Travel Chatbot with Integrated Flight Booking
 
+This project is a scratch-built, **NLP-based AI chatbot** designed for a travel agency. It can **book flights**, **manage user identity**, **answer questions**, and handle **small talk** — all through a natural, interactive conversation. The chatbot guides users through the full flight booking process with robust intent recognition, clear prompts, and real-time error handling.
 
+> ✈️ **Goal:** Deliver a smooth, human-like booking experience using modular NLP design and smart conversational flow.
 
-## Getting started
+---
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+## 🧠 Core Features
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+- 💬 **Flight Booking Transactions**  
+  Step-by-step dialogue system with backtracking, restarts, and confirmations.
+  
+- 🧭 **Intent Classification**  
+  Classifies user intent into booking, small talk, identity requests, or general queries using TF-IDF + cosine similarity.
 
-## Add your files
+- 👤 **Identity Management**  
+  Dynamically stores user data (name, age, preferences) using POS + NER for personalization.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- ❓ **FAQ & Question Answering**  
+  Efficient similarity matching from a pre-defined dataset for fast, relevant answers.
 
-```
-cd existing_repo
-git remote add origin https://projects.cs.nott.ac.uk/psyhn2/hai_comp3074_chatbot.git
-git branch -M main
-git push -uf origin main
-```
+- 😄 **Small Talk Engine**  
+  Responds to casual dialogue and fallback topics, enhancing naturalness.
 
-## Integrate with your tools
+- 🔄 **Context Tracking with Stack**  
+  Maintains conversation state and navigation across booking stages.
 
-- [ ] [Set up project integrations](https://projects.cs.nott.ac.uk/psyhn2/hai_comp3074_chatbot/-/settings/integrations)
+---
 
-## Collaborate with your team
+## 🧪 Methodology at a Glance
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- **Text Preprocessing**
+  - Lowercasing, tokenization, stopword removal, lemmatization, and symbol cleaning.
+  - Two modes: with/without stopword removal for different NLP pipelines.
 
-## Test and Deploy
+- **Intent Matching**
+  - TF-IDF + cosine similarity (lightweight and effective).
+  - 4-class intent detection with 0.3 threshold filter.
 
-Use the built-in continuous integration in GitLab.
+- **Conversational Flow Design**
+  - Prompts show next steps and confirm actions.
+  - Visual confirmation of ticket details and guided responses.
+  - Handles negation (“go back”, “restart”, “cancel”) with reprompt strategies.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+- **POS + NER Tagging**
+  - For name, place, and age detection in user input.
+  - Ensures flexible natural input handling.
 
-***
+---
 
-# Editing this README
+## 📊 Results & Impact
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+The chatbot was tested with 4 users across different tech backgrounds.
 
-## Suggestions for a good README
+### ✅ Usability Highlights:
+- **Personalization:** Remembers names, flight info, and preferences.
+- **Clarity:** Structured prompts like “Let’s move to the next step: Payment” increased confidence.
+- **Discoverability:** "What can you do?" command lets users navigate more easily.
+- **Error Handling:** Smart fallbacks for invalid input, misformatted dates, and unsupported routes.
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+### 📈 Performance Snapshot:
+| Metric                      | Result                       |
+|----------------------------|------------------------------|
+| Intent Matching Accuracy   | 85% (9/12 correctly classified) |
+| Booking Robustness         | Full flow handled w/o error   |
+| System Responsiveness      | Fast on all user actions      |
+| Memory Usage               | Stable during execution       |
 
-## Name
-Choose a self-explaining name for your project.
+---
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## 🛠️ Tech Stack
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+- Python
+- TF-IDF, Cosine Similarity
+- POS & Named Entity Recognition (spaCy/NLTK)
+- Modular Class-Based Design
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+---
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## 🧾 License
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+This project is released under **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.  
+You are free to learn from and adapt the code for **non-commercial purposes only**, with attribution.  
+Commercial use is strictly prohibited.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+---
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+## ✍️ Author
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+**Ngoc Hoa Nguyen**  
+MSc Computer Science, University of Nottingham  
+[LinkedIn] | [Portfolio] *(Add links here)*
