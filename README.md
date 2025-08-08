@@ -1,0 +1,2 @@
+# AI-Travel-Assistant-with-Seamless-Flight-Booking-from-Scratch
+A scratch-built AI chatbot designed for Travel agency, capable of handling real flight bookings via natural conversation. Built entirely in Python with custom NLP logic, system understands user intent, manages personal info, answers questions, and guides users through a multi-step booking process - without relying on 3rd-party chatbot frameworks.
