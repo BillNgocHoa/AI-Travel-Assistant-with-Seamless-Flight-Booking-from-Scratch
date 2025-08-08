@@ -6,6 +6,8 @@ This project is a scratch-built, **NLP-based AI chatbot** designed for a travel 
 
 Detailed Report: [Detailed_Report.pdf](https://github.com/user-attachments/files/21684515/Report-NgocNguyen_Submitted.pdf)
 
+[click here](https://github.com/BillNgocHoa/AI-Travel-Assistant-with-Seamless-Flight-Booking-from-Scratch/blob/master/Detailed_Description_AI_Travel_Chatbot.pdf)
+
 Demonstration Video:
 
 https://github.com/user-attachments/assets/c7deca44-3f72-462b-afdc-6258ff51ab1d 
