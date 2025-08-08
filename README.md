@@ -2,7 +2,9 @@
 
 This project is a scratch-built, **NLP-based AI chatbot** designed for a travel agency. It can **book flights**, **manage user identity**, **answer questions**, and handle **small talk** — all through a natural, interactive conversation. The chatbot guides users through the full flight booking process with robust intent recognition, clear prompts, and real-time error handling.
 
-> ✈️ **Goal:** Deliver a smooth, human-like booking experience using modular NLP design and smart conversational flow.
+[Detailed_Report.pdf](https://github.com/user-attachments/files/21684515/Report-NgocNguyen_Submitted.pdf)
+
+> ✈️ **Goal:** Deliver a smooth, human-like travel assistant and booking experience using modular NLP design and smart conversational flow.
 
 ---
 
@@ -15,7 +17,7 @@ This project is a scratch-built, **NLP-based AI chatbot** designed for a travel 
   Classifies user intent into booking, small talk, identity requests, or general queries using TF-IDF + cosine similarity.
 
 - 👤 **Identity Management**  
-  Dynamically stores user data (name, age, preferences) using POS + NER for personalization.
+  Dynamically stores user data (name, age, preferences) using POS + NER for personalisation.
 
 - ❓ **FAQ & Question Answering**  
   Efficient similarity matching from a pre-defined dataset for fast, relevant answers.
@@ -91,5 +93,10 @@ Commercial use is strictly prohibited.
 ## ✍️ Author
 
 **Ngoc Hoa Nguyen**  
-MSc Computer Science, University of Nottingham  
-[LinkedIn] | [Portfolio] *(Add links here)*
+
+BSc Hons Computer Science, University of Nottingham
+
+**Portfolio**: https://mavenshowcase.com/profile/48d1b3e0-4041-70ba-5a7f-4b39e89b3bc2
+
+**LinkedIn**: https://www.linkedin.com/in/billngochoa/ 
+
