@@ -1,8 +1,10 @@
-# SkyMate: AI Travel Chatbot with Integrated Flight Booking
+# SkyMate: AI Travel Assistant with Seamless Flight Booking from Scratch
 
-This project is a scratch-built, **NLP-based AI chatbot** designed for a travel agency. It can **book flights**, **manage user identity**, **answer questions**, and handle **small talk** — all through a natural, interactive conversation. The chatbot guides users through the full flight booking process with robust intent recognition, clear prompts, and real-time error handling.
+This project is a scratch-built, **NLP-based AI chatbot** designed for a travel agency. It can **book flights**, **answer questions**, **manage user identity**,  and handle **small talk** — all through a natural, interactive conversation. The chatbot guides users through the full flight booking process with robust intent recognition, clear prompts, and real-time error handling.
 
 [Detailed_Report.pdf](https://github.com/user-attachments/files/21684515/Report-NgocNguyen_Submitted.pdf)
+
+Demonstrated Video: https://youtu.be/RJpiHTrE57Q 
 
 > ✈️ **Goal:** Deliver a smooth, human-like travel assistant and booking experience using modular NLP design and smart conversational flow.
 
