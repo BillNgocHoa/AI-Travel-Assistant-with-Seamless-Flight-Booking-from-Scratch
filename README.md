@@ -4,7 +4,7 @@ This project is a scratch-built, **NLP-based AI chatbot** designed for a travel 
 
 > ✈️ **Goal:** Deliver a smooth, human-like travel assistant and booking experience using modular NLP design and smart conversational flow.
 
-[Detailed_Report.pdf](https://github.com/user-attachments/files/21684515/Report-NgocNguyen_Submitted.pdf)
+Detailed Report: [Detailed_Report.pdf](https://github.com/user-attachments/files/21684515/Report-NgocNguyen_Submitted.pdf)
 
 Demonstration Video: https://youtu.be/RJpiHTrE57Q 
 
