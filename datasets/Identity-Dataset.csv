@@ -1,0 +1,13 @@
+User_Input,Intent,Answer,Required_Tag
+What is my name?,identity,Your name is {}.,name
+What's my name?,identity,Your name is {}.,name
+who am I,identity,You are {}.,name
+Tell me more about myself.,identity,You are {}.,name
+Call me,identity,"Okay, I'll call you {}!",name
+My name is,identity,"Nice to meet you, {}!",name
+What is your name,identity,My name is HAI Chat Bot,
+is my name,identity,Your name is {}.,name
+How old are you?,identity,I'm nearly a month old. I was built on 19/11/2024.,
+How old am I?,identity,You are {} years old,age
+When is your birthday,identity,Your birth day is in {},age
+What is my date of birth (DOB)?,identity,Your date of birth is {},dob

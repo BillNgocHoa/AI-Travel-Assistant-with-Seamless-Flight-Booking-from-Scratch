@@ -1,0 +1,74 @@
+User_Input,Intent,Answer
+What is my name?,identity,Your name is {}.
+What's my name?,identity,Your name is {}.
+who am I,identity,You are {}.
+Tell me more about myself.,identity,You are {}.
+Call me,identity,"Okay, I'll call you {}!"
+My name is,identity,"Nice to meet you, {}!"
+What is your name,identity,My name is HAI Chat Bot
+is my name,identity,Your name is {}.
+hi,small_talk,Hello! What's your name?
+hello,small_talk,Hey there! May I know your name?
+how are you,small_talk,"I'm an AI, I don't have emotion. But I'm here to help you. How can I assist?"
+what can you do,small_talk,"I can help you book flight tickets, have a little chat with you, and answer general questions. Just let me know ^^"
+Nice to meet you,small_talk,Nice to meet you too!
+it's nice to meet you,small_talk,It's nice to meet you too!
+"Hi, how is it going?",small_talk,"I'm an AI, I don't have emotion. But I'm here to help you. How can I assist?"
+"Hey, how's it going?",small_talk,"I'm an AI, I don't have emotion. But I'm here to help you. How can I assist?"
+Nice to chat with you!,small_talk,Nice to chat with you too!
+Good morning,small_talk,Good morning! How can I help you?
+Good afternoon,small_talk,Good afternoon! How can I help you?
+Good evening,small_talk,Good evening! How can I help you?
+Good night,small_talk,Have a good sleep!
+I want to have a chat,small_talk,I would love to chat with you. What is in your mind right now?
+Can you book a flight for me?,booking,
+I'd like to reserve a hotel room.,booking,
+Can you help me with my booking?,booking,
+Can you assist me with a reservation?,booking,
+Can you book a table for me?,booking,
+Can you book a flight for me today?,booking,
+Can you book a hotel room for me?,booking,
+Can you assist me with a reservation?,booking,
+Can you book a flight for me?,booking,
+Can you assist me with a reservation?,booking,
+Can you book a flight for me today?,booking,
+Can you assist me with a reservation?,booking,
+Can you book a flight for me?,booking,
+Schedule  a meeting,booking,
+Schedule me a meeting,booking,
+Schedule me an event,booking,
+Schedule me a class,booking,
+I want to book a hotel,booking,
+I want to schedule a trip,booking,
+book,booking,
+reserve,booking,
+schedule,booking,
+I want to ask a question,question,
+ask questions,question,
+Could you explain,question,
+help me understand,question,
+How does climate change impact biodiversity in coastal ecosystems?,question,
+How can artificial intelligence be used to improve healthcare outcomes?,question,
+How does globalization affect cultural identity and traditions?,question,
+How can educational systems be reformed to better prepare students for the future workforce?,question,
+How does social media influence political discourse and public opinion?,question,
+What are the ethical implications of emerging technologies like gene editing?,question,
+Why is it important to study history?,question,
+"Where did the first civilizations arise, and why?	",question,
+"When did humans first migrate to the Americas, and how?",question,
+What are the key factors contributing to the rise of populism in democratic societies?,question,
+What time is it?,question,
+When is the next bus arriving?,question,
+Why is the sky blue?,question,
+"Where is the nearest restaurant?	question	",question,
+Who invented the internet?,question,
+Can you tell me about your features?,question,
+What's your purpose?,question,
+What's the weather like?,question,
+What's the capital of France?,question,
+Can you explain quantum physics?,question,
+What's the difference between Java and Python?,question,
+"What's the capital of Australia?	",question,
+Can you help me find a job?,question,
+What's the difference between JavaScript and TypeScript?,question,
+Can you explain quantum physics?,question,

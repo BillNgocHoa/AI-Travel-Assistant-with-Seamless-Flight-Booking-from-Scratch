@@ -1,0 +1,25 @@
+Flight ID,Departure,Destination,Flight Time,Plane ID,Class,Price,Return Price
+FBW032,England,Singapore,10:00,BA760,Economy,730,1435
+FBW033,England,Spain,20:00,BA761,Economy,157,289
+FBW034,England,France,14:00,BA762,Economy,125,225
+FBW035,Singapore,England,10:00,BA763,Economy,750,1475
+FBW036,Singapore,Spain,20:00,BA764,Economy,689,1353
+FBW037,Singapore,France,14:00,BA765,Economy,728,1431
+FBW038,Spain,England,10:00,BA766,Economy,160,295
+FBW039,Spain,Singapore,20:00,BA767,Economy,670,1315
+FBW040,Spain,France,14:00,BA768,Economy,230,435
+FBW041,France,England,10:00,BA769,Economy,120,215
+FBW042,France,Singapore,20:00,BA770,Economy,689,1353
+FBW043,France,Spain,14:00,BA771,Economy,135,245
+FBW044,England,Singapore,10:00,BA772,Business,3340,6655
+FBW045,England,Spain,20:00,BA773,Business,461,897
+FBW046,England,France,14:00,BA774,Business,316,607
+FBW047,Singapore,England,10:00,BA775,Business,2250,4475
+FBW048,Singapore,Spain,20:00,BA776,Business,2073,4121
+FBW049,Singapore,France,14:00,BA777,Business,2190,4355
+FBW050,Spain,England,10:00,BA778,Business,486,947
+FBW051,Spain,Singapore,20:00,BA779,Business,2016,4007
+FBW052,Spain,France,14:00,BA780,Business,696,1367
+FBW053,France,England,10:00,BA781,Business,366,707
+FBW054,France,Singapore,20:00,BA782,Business,2073,4121
+FBW055,France,Spain,14:00,BA783,Business,411,797
