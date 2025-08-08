@@ -6,7 +6,9 @@ This project is a scratch-built, **NLP-based AI chatbot** designed for a travel 
 
 Detailed Report: [Detailed_Report.pdf](https://github.com/user-attachments/files/21684515/Report-NgocNguyen_Submitted.pdf)
 
-Demonstration Video: [Demo Video](https://github.com/user-attachments/assets/c7deca44-3f72-462b-afdc-6258ff51ab1d)
+Demonstration Video:
+
+https://github.com/user-attachments/assets/c7deca44-3f72-462b-afdc-6258ff51ab1d 
 
 ---
 
